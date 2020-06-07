@@ -1,7 +1,7 @@
 # BaseApparel_FrontendMentor
 # Frontend Mentor - Base Apparel coming soon page
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
+<img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/nmzsekfvee2avkiut1en.jpg"/>
 
 ## Welcome! 👋
 

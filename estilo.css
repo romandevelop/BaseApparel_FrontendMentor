@@ -1,0 +1,83 @@
+:root {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  --DesaturatedRed: hsl(0, 36%, 70%);
+  --SoftRed: hsl(0, 93%, 68%);
+  --DarkGrayishRed: hsl(0, 6%, 24%);
+
+  --color1: hsl(0, 0%, 100%);
+  --color2: hsl(0, 100%, 98%);
+  --color3: hsl(0, 80%, 86%);
+  --color4: hsl(0, 74%, 74%);
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.header {
+  padding: 1.8em;
+}
+.header img {
+  height: 22px;
+}
+.foto img {
+  width: 100%;
+  height: auto;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.4em;
+}
+.txt1 {
+  color: var(--DesaturatedRed);
+  font-weight: 300;
+  letter-spacing: 6px;
+}
+.txt2 {
+  color: var(--DarkGrayishRed);
+  letter-spacing: 6px;
+}
+.contenido {
+  margin-top: 2em;
+  padding: 1.5em;
+}
+.contenido p {
+  color: var(--DesaturatedRed);
+  line-height: 1.4em;
+  font-weight: 300;
+  text-align: center;
+}
+.form {
+  margin: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+.form input {
+  border-radius: 30px;
+  border: 0.5px solid var(--color3);
+  padding: 16px 0 16px 16px;
+  width: 100%;
+}
+.form input::placeholder {
+  color: var(--color3);
+  font-family: "Josefin Sans", sans-serif;
+}
+.btn {
+  width: 20px;
+  position: relative;
+  right: 50px;
+  padding: 1em 1.8em;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    var(--color3) 0%,
+    var(--color4) 100%
+  );
+}
+.btn img {
+  display: block;
+  margin: 0 auto;
+}

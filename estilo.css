@@ -15,8 +15,12 @@ body {
   height: 100%;
   width: 100%;
 }
+.container {
+  background: var(--color2);
+}
 .header {
   padding: 1.8em;
+  background: var(--color2);
 }
 .header img {
   height: 22px;
